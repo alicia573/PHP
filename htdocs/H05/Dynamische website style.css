@@ -1,0 +1,38 @@
+form{
+    text-align: left;
+    padding-top: 50px;
+    display: inline-block;
+    margin-left: 60px;
+    font-size: 25px
+}
+#wrapper{
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+
+}
+#button{
+    margin-left: 50px;
+}
+input{
+    height:30px;
+    width: 400px
+}
+.output{
+    padding-top: 15px;
+}
+input.value{
+    color: grey;
+}
+.text{
+    white-space: normal;
+    font-size: 20px;
+}
+.error{
+    color: red;
+    margin-top:-500px ;
+    white-space: nowrap;
+}
+p{
+    font-size: 14px;
+}

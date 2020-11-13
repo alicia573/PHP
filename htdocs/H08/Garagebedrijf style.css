@@ -1,0 +1,29 @@
+.Banner img{
+    margin: -10px -10px 10px -10px;
+    width: 100%;
+}
+form{
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+    display: inline-block;
+}
+#merken{
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    border:1px;
+    border-color: lightgrey;
+}
+
+#info-on-pic{
+
+    margin-top: 30px;
+    position: absolute;
+    width: 400px;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+.cars-images{
+    border-radius: 400px;
+    width: 200px;
+}

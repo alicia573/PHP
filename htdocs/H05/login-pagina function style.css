@@ -1,0 +1,47 @@
+#error{
+    color: red;
+    font-size: 40px;
+    font-family: 'Indie Flower',cursive;
+    padding-top: 200px;
+    text-align: center;
+
+}
+#wrapper{
+    margin:auto;
+    width: 1000px;
+    text-align: center;
+    padding-top: 150px;
+}
+* {
+    box-sizing: border-box;
+}
+#login{
+    font-family: 'Indie Flower',cursive;
+    font-size: 34px;
+
+}
+#welcome{
+    color: black;
+    font-size: 40px;
+    font-family: 'Indie Flower',cursive;
+    padding-top: 200px;
+    text-align: center;
+    white-space: nowrap;text-overflow: ellipsis;
+
+}
+form{
+    width: 390px;
+    text-align: center;
+    padding-left: 329px;
+}
+input{
+    height: 30px;
+    width: 350px;
+}
+#username{
+    color: black;
+    font-size: 40px;
+    font-family: 'Indie Flower',cursive;
+    padding-top: 200px;
+    text-align: center;
+}

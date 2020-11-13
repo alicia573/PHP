@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+form{
+    width: 390px;
+    text-align: center;
+    padding-left: 300px;
+    font-size: 25px;
+    padding-top: 20px;
+}
+label{
+
+}
+#back{
+    text-decoration: none;
+    color: dodgerblue;
+}
+#wrapper{
+    margin:auto;
+    width: 1000px;
+    text-align: center;
+
+}
+#error{
+    color: red;
+
+}
+
+input{
+    height:30px;
+    width: 400px
+}
+#loginform h1{
+    padding-top: 150px;
+}
+#navbar{
+    text-decoration: none;
+}
+#navbar button{
+    border: 1px black solid;
+    background: dodgerblue;
+    cursor: pointer;
+
+}
+#navbar button a{
+    text-decoration: none;
+    color: white;
+}
