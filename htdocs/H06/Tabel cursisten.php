@@ -18,6 +18,7 @@
         <th>Geboortedatum</th>
     </tr>
     <?php
+    include "grote_school.sql";
     $conn = mysqli_connect("localhost", "root", "", "school","3308");
     // Check connection
     if ($conn->connect_error) {
