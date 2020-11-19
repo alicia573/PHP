@@ -18,13 +18,13 @@
         <th>Geboortedatum</th>
     </tr>
     <?php
-    include "grote_school.sql";
-    $conn = mysqli_connect("localhost", "root", "", "school","3308");
+
+    $conn = mysqli_connect("sql209.byetcluster.com", "unaux_26683842", "musicislife", "unaux_26683842_School");
     // Check connection
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
-    $sql = "SELECT * FROM cursisten";
+    $sql = "SELECT * FROM cursist";
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {
         // output data of each row
