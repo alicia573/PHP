@@ -19,12 +19,10 @@
     </tr>
     <?php
 
-    $conn = mysqli_connect("sql105.unaux.com", "unaux_27261461", "Experience", "unaux_26683842_school");
+    $conn = mysqli_connect("sql105.unaux.com", "unaux_27261461", "Experience", "unaux_27261461_school");
     // Check connection
     if (!$conn) {
         echo "Connection Error \n". mysqli_connect_error();
-    }else{
-        echo "database connected";
     }
     $sql = "SELECT * FROM cursisten";
     $result = $conn->query($sql);
