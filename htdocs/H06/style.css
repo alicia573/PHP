@@ -1,24 +1,35 @@
 table{
     text-align: left;
     border-collapse: collapse;
-    font-family: monospace;
-    width: 70%;
+    font-family: monospace ;
+    width: 100%;
     font-size: 20px;
-    color: lightskyblue;
-    background-color: black;
-
+    color: black;
     margin-left: auto;
     margin-right: auto;
-}
 
+}
+th{
+    border-right: 1px solid black;
+}
+td,tr{
+    border: 1px solid black;
+}
+tr{
+
+}
 @media screen and (max-width: 992px) {
-    body {
-        background-color: blue;
+
+    table{
+        width:100%;
+        font-size:10px;
+
     }
 }
 
 @media screen and (max-width: 600px) {
-    body {
-        background-color: olive;
+
+    table{
+        font-size:5px;
     }
 }
