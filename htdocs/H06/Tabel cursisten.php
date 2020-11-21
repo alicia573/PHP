@@ -19,12 +19,14 @@
     </tr>
     <?php
 
-    $conn = mysqli_connect("sql209.byetcluster.com", "unaux_26683842", "musicislife", "unaux_26683842_School");
+    $conn = mysqli_connect("sql105.unaux.com", "unaux_27261461", "Experience", "unaux_26683842_school");
     // Check connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
+    if (!$conn) {
+        echo "Connection Error \n". mysqli_connect_error();
+    }else{
+        echo "database connected";
     }
-    $sql = "SELECT * FROM cursist";
+    $sql = "SELECT * FROM cursisten";
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {
         // output data of each row
