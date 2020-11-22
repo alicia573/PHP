@@ -15,8 +15,8 @@
 
         <form action="Garagebedrijf%20Mr%20Wheely.php" method="POST">
             <label for="merken">Merk:</label>
-            <select id="merken" name="Merken" size="3">
-                <option>--Alle merken--</option>
+            <select id="merken" name="Merken" >
+                <option value>--Alle merken--</option>
                 <option value="Audi">Audi</option>
                 <option value="Ferrari" >Ferrari</option>
                 <option value="fiat">Fiat</option>

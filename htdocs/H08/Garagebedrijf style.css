@@ -1,3 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+#wrapper{
+    margin: auto;
+    width: 1000px;
+}
 .Banner img{
     margin: -10px -10px 10px -10px;
     width: 100%;
@@ -6,7 +14,7 @@ form{
     text-align: left;
     width: 100%;
     font-size: 20px;
-    display: inline-block;
+    display: Block;
 }
 #merken{
     width: 100%;
