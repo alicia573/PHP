@@ -17,13 +17,13 @@ td{
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
-
 }
 th{
     text-align: left;
 }
 a{
     text-decoration: none;
-    color: purple;
     font-weight: bold;
+    color: black;
+
 }
